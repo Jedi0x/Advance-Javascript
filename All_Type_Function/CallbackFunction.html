@@ -1,0 +1,24 @@
+<!-- the function that we pass as an argument to another function is called clalback  -->
+
+<script>
+  const myName = () => {
+    return 'Hello';
+  };
+
+  const greeting = (sayHi, name) => {
+    console.log(sayHi() + name);
+  };
+  greeting(myName, 'Hassan Raza');
+</script>
+
+<script>
+  const value1 = () => {
+    return "hellow Developer "
+  };
+
+  const add = (a, b) => {
+    console.log(a + b());
+  };
+
+  add('Ali Raza', value1);
+</script>

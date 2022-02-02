@@ -1,0 +1,16 @@
+ForEach() method call a function once for each element when in array and order
+
+Syntax: foreach(arr(starting index,full array))
+
+for of loop:
+
+sytax: for(anyvar of arrname){
+    console.log(anyvar)
+}
+
+//where anyvar runtime varibale
+
+
+//for of loop : use iterable 
+
+for in loop contain the enumerable
